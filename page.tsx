@@ -1,27 +1,20 @@
-import Link from "next/link";
+import Link from 'next/link' 
+import styles from "../service/service.module.css";
+import React from 'react'
 
-
-  function HomePage  () {
+const ServicePage = () => {
   return (
+    <div className= {styles.container}>
+      <h3 className= {styles.header}>This is Service Page</h3>
       
-      <div>
-          <h1 className="container">HomePage</h1>
-      <h2 className="header">This is HomePage</h2>
+      <ul className= {styles.list}>
 
-       <ul>
-          <li>
-           <Link href="/">Home</Link>
-           </li>
-          <li><Link href="/about" target= 'blank'>About</Link></li>
-           <li><Link href="/contact" target= 'blank'>Contact</Link></li>
-           <li><Link href="/service" target= 'blank'>Service</Link></li>
-        </ul>
-     </div>
-   
-   )
- }
-    
-  
+        <li><a href="/service/musarat-naz">This is Musarat Naz Page</a></li>
 
-export default HomePage;             
-        
+         </ul>
+      
+    </div>
+  )
+}
+
+export default ServicePage
