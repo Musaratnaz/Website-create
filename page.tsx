@@ -1,11 +1,11 @@
 import React from 'react'
 
-const MusaratNaz = () => {
+const AboutUs = () => {
   return (
     <div>
-      <h1>This is Musarat Naz Page</h1>
+      <h1>This is Abut Us Page</h1>
     </div>
   )
 }
 
-export default MusaratNaz
+export default AboutUs
