@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.cotainer{
+
+    color:green;
+    background-color:aquamarine;
+    
+}
+
+.header{
+
+    color:royalblue;
+    background-color:aqua;
+}
